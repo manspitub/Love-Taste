@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citas Love & Taste</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">
+          <img src="img/logoWeb.jpg" width="70px" alt="" srcset="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="/index.html"
+                >Sabores del Alma</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/citas.html">Citas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/reservas.html">Reservar</a>
+            </li>
+          </ul>
+          <!-- Campo de búsqueda -->
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+            <button class="btn" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-4 text-center">
+      <h3 class="p-3 rounded shadow reservation-message">
+        ¿Aún no tienes tu reserva?
+        <a href="/reservas.html" class="fw-bold reservation-link"
+          >¡Reserva aquí ahora!</a
+        >
+      </h3>
+    </div>
+
+    <div class="container my-5">
+      <h2 class="text-center mb-5 form-title text-white rounded">
+        Citas Reservadas
+      </h2>
+      <table
+        class="table table-bordered table-striped table-hover romantic-table"
+      >
+        <thead class="table-header">
+          <tr>
+            <th scope="col">Pareja</th>
+            <th scope="col">Fecha Reserva</th>
+            <th scope="col">Hora Reserva</th>
+            <th scope="col" class="d-none d-md-table-cell">
+              Número de Personas
+            </th>
+            <th scope="col" class="d-none d-md-table-cell">Mensaje Especial</th>
+            <th scope="col" class="d-none d-md-table-cell">Mesa Reservada</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>María y Juan</td>
+            <td>2024-11-20</td>
+            <td>19:00</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td class="d-none d-md-table-cell">
+              Noche de aniversario, recordando nuestro primer encuentro.
+            </td>
+            <td class="d-none d-md-table-cell">12</td>
+          </tr>
+          <tr>
+            <td>Elena y Pedro</td>
+            <td>2024-11-21</td>
+            <td>20:00</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td class="d-none d-md-table-cell">Brindis por el amor eterno.</td>
+            <td class="d-none d-md-table-cell">5</td>
+          </tr>
+          <tr>
+            <td>Laura y Carlos</td>
+            <td>2024-11-22</td>
+            <td>18:30</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td class="d-none d-md-table-cell">Celebrando juntos un nuevo comienzo.</td>
+            <td class="d-none d-md-table-cell">3</td>
+          </tr>
+          <tr>
+            <td>Sofía y Manuel</td>
+            <td>2024-11-23</td>
+            <td>21:00</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td class="d-none d-md-table-cell">Cita bajo las estrellas, solo tú y yo.</td>
+            <td class="d-none d-md-table-cell">8</td>
+          </tr>
+          <tr>
+            <td>Ana y Marcos</td>
+            <td>2024-11-24</td>
+            <td>20:30</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td class="d-none d-md-table-cell">Una noche para recordar nuestro primer beso.</td>
+            <td class="d-none d-md-table-cell">4</td>
+          </tr>
+          <tr>
+            <td>Isabel y José</td>
+            <td>2024-11-25</td>
+            <td>19:00</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td class="d-none d-md-table-cell">Porque siempre encontramos razones para amarnos más.</td>
+            <td class="d-none d-md-table-cell">9</td>
+          </tr>
+          <tr>
+            <td>Lucía y Javier</td>
+            <td>2024-11-26</td>
+            <td>18:00</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td class="d-none d-md-table-cell">Una cena para soñar con nuestro futuro juntos.</td>
+            <td class="d-none d-md-table-cell">6</td>
+          </tr>
+          <tr>
+            <td>Paula y Roberto</td>
+            <td>2024-11-27</td>
+            <td>21:30</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td class="d-none d-md-table-cell">Celebrando el amor que crece cada día.</td>
+            <td class="d-none d-md-table-cell">2</td>
+          </tr>
+          <tr>
+            <td>Carmen y David</td>
+            <td>2024-11-28</td>
+            <td>19:30</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td class="d-none d-md-table-cell">Por cada sonrisa que compartimos.</td>
+            <td class="d-none d-md-table-cell">7</td>
+          </tr>
+          <tr>
+            <td>Julia y Miguel</td>
+            <td>2024-11-29</td>
+            <td>20:00</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td class="d-none d-md-table-cell">Un brindis por todos nuestros momentos especiales.</td>
+            <td class="d-none d-md-table-cell">10</td>
+          </tr>
+          <tr>
+            <td>Clara y Luis</td>
+            <td>2024-11-30</td>
+            <td>19:45</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td class="d-none d-md-table-cell">Que esta noche sea el inicio de muchos recuerdos juntos.</td>
+            <td class="d-none d-md-table-cell">11</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer class="bg-dark text-white py-5">
+        <div class="container text-center">
+          <div class="row">
+            <!-- Columna con la descripción del restaurante -->
+            <div class="col-12 col-md-4">
+              <h5>Love and Taste</h5>
+              <p>
+                Disfruta de una experiencia gastronómica única en un ambiente
+                romántico. Perfecto para cenas especiales y momentos inolvidables.
+              </p>
+            </div>
+  
+            <!-- Columna con enlaces a redes sociales -->
+            <div class="col-12 col-md-4">
+              <h5>Redes Sociales</h5>
+              <ul class="list-unstyled d-flex justify-content-around">
+                <li>
+                  <a
+                    href="https://facebook.com"
+                    class="social-icon"
+                    target="_blank"
+                    ><img width="50px" src="icons/facebook.svg" alt="facebook"
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    href="https://instagram.com"
+                    class="social-icon"
+                    target="_blank"
+                    ><img width="50px" src="icons/instagram.svg" alt="instagram"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://x.com" class="social-icon" target="_blank"
+                    ><img width="50px" src="icons/twitter-x.svg" alt="twitter"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+  
+            <!-- Columna con la dirección del restaurante -->
+            <div class="col-12 col-md-4">
+              <h5>Contacto</h5>
+              <p><strong>Dirección:</strong> Calle Ficticia 123, Ciudad, País</p>
+              <p><strong>Teléfono:</strong> (123) 456-7890</p>
+              <p><strong>Email:</strong> contacto@loveandtaste.com</p>
+            </div>
+          </div>
+  
+          <!-- Barra inferior con derechos de autor -->
+          <div class="row mt-4">
+            <div class="col-12 text-center">
+              <p class="mb-0">
+                © 2024 Love and Taste. Todos los derechos reservados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

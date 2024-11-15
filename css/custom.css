@@ -1,0 +1,159 @@
+body {
+  background-color: #f8e8e8; /* Rosa pálido */
+  font-family: "Georgia", serif;
+}
+
+nav {
+  background-color: #333333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d4af37;
+  /* Color Dorado Suave para el hover */
+}
+
+.carousel-image {
+  max-width: 600px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+
+#carousel {
+  display: flex;
+  justify-content: center;
+}
+
+nav,
+footer {
+  background: linear-gradient(135deg, #e96443, #904e95);
+}
+
+/* Estilos de iconos de redes sociales */
+.social-icon img {
+  background-color: #800020; /* Burdeos como fondo */
+  border-radius: 50%; /* Forma redonda */
+  padding: 4px; /* Espacio alrededor del icono */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon img:hover {
+  background-color: #f8b6b6; /* Rosa claro en hover */
+  transform: scale(1.1); /* Ligero zoom al pasar el cursor */
+}
+
+
+.reserva {
+  background-color: #800020;
+  color: #ffffff;
+  border: none;
+}
+
+/* CSS Reservas */
+
+.form-title {
+  background-color: #800020; /* Fondo burdeos */
+  padding: 20px;
+  
+}
+
+/* Colores personalizados para las pestañas */
+.nav-tabs .nav-link {
+  color: #800020; /* Burdeos */
+  background-color: #fdd4a8; /* Color cálido */
+  border: 1px solid #800020;
+}
+
+/* Color para la pestaña activa */
+.nav-tabs .nav-link.active {
+  color: #ffffff; /* Texto blanco para contraste */
+  background-color: #800020; /* Burdeos */
+  border: 1px solid #800020;
+}
+
+/* Hover para las pestañas */
+.nav-tabs .nav-link:hover {
+  background-color: #f8b6b6; /* Rosa claro */
+  color: #800020; /* Burdeos */
+}
+/* Estilos románticos para todos los inputs, selects, y textareas */
+input,
+select,
+textarea {
+  border: 1px solid #f8b6b6 !important; /* Borde rosa claro */
+  background-color: #fef6f6 !important; /* Fondo rosa muy suave */
+  box-shadow: 0px 4px 8px rgba(128, 0, 32, 0.1) !important; /* Sombra ligera */
+  transition: all 0.3s ease !important; /* Transición suave */
+}
+
+/* Estilo en foco */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #800020 !important; /* Burdeos al hacer foco */
+  box-shadow: 0px 4px 12px rgba(128, 0, 32, 0.3) !important; /* Sombra más destacada */
+}
+
+/* Estilos para el botón de enviar */
+.btn {
+  color: #ffffff ;
+  background-color: #800020 ;
+  transition: background-color 0.3s ease ;
+}
+
+.btn:hover {
+  background-color: #a5284c; /* Un poco más claro en hover */
+}
+
+/* TABLA DE CITAS */
+
+/* MENSAJE PARA RESERVAR */
+
+/* Definir colores para la paleta de la web */
+.bg-burdeos {
+  background-color: #800020 !important;
+}
+
+.text-rosa {
+  color: #f8b6b6 !important;
+}
+
+.reservation-message {
+  background-color: #f8b6b6;
+  color: #800020;
+}
+.reservation-link {
+  color: #800020;
+  text-decoration: none;
+}
+
+.reservation-link:hover {
+  color: #b0003a;
+  text-decoration: underline;
+}
+
+/* TABLA DE CITAS RESERVADAS */
+
+/* Paleta de colores románticos */
+.romantic-table {
+  border: 2px solid #f8b6b6; /* Borde rosa claro */
+  background-color: #fef6f6; /* Fondo rosa suave */
+}
+
+.table-header th {
+  background-color: #800020; /* Fondo burdeos para los encabezados */
+  color: #ffffff;
+}
+
+.romantic-table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.romantic-table tbody tr:hover {
+  background-color: #fde1e1; /* Rosa más claro al pasar el ratón */
+}
+
+
+.romantic-table tbody td {
+  color: #800020; /* Texto burdeos para las celdas */
+  font-family: "Georgia", serif;
+}
